@@ -1,0 +1,95 @@
+{
+  "headerImage": "https://zelv0rn.github.io/sileodepictions/headerImage.png",
+  "class": "DepictionTabView",
+  "tintColor": "#47afd1",
+  "minVersion": "0.4",
+  "tabs": [
+    {
+      "views": [
+        {
+          "spacing": 12,
+          "class": "DepictionSpacerView"
+        },
+        {
+       "markdown": "Modify the keyboard to have rounded corners, bold  \n**Note:** Use iCleaner Pro after install/uninstall.",
+      "class": "DepictionMarkdownView"
+        },
+      	{
+          "screenshots": [
+            {
+              "fullSizeURL": "https://zelv0rn.github.io/sileodepictions/keyrounded/keeounded_ar.png",
+              "accessibilityText": "Screenshot",
+              "url": "https://zelv0rn.github.io/sileodepictions/keyrounded/keyrounded_ar.png"
+            },
+            {
+              "fullSizeURL": "https://zelv0rn.github.io/sileodepictions/keyrounded/keyrounded_ar.png",
+              "accessibilityText": "Screenshot",
+              "url": "https://zelv0rn.github.io/sileodepictions/keyrounded/keyrounded_en.png"
+            }
+          ],
+          "itemCornerRadius": 6,
+          "class": "DepictionScreenshotsView",
+          "itemSize": "{160, 346}"
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
+        {
+          "class": "DepictionHeaderView",
+          "title": "Information"
+        },
+        {
+          "text": "1.0",
+          "class": "DepictionTableTextView",
+          "title": "Version"
+        },
+        {
+          "text": "15 - 16",
+          "class": "DepictionTableTextView",
+          "title": "iOS Versions"
+        },
+        {
+          "action": "https://x.com/zelv0rn?s=21",
+          "class": "DepictionTableButtonView",
+          "title": "Follow me on X"
+        },
+      ],
+      "tabname": "Details",
+      "class": "DepictionStackView"
+    },
+    {
+      "views": [
+        {
+          "class": "DepictionLayerView",
+          "views": [
+            {
+              "class": "DepictionSubheaderView",
+              "title": "1.0.0",
+              "alignment": 0,
+              "useBoldText": true
+            },
+            {
+              "class": "DepictionSubheaderView",
+              "title": "2025-07-22",
+              "alignment": 2
+            }
+          ]
+        },
+        {
+          "useSpacing": true,
+          "markdown": " ",
+          "class": "DepictionMarkdownView"
+        },
+        {
+          "class": "DepictionSpacerView",
+          "spacing": 12
+        }
+      ],
+      "tabname": "Changes",
+      "class": "DepictionStackView"
+    }
+  ]
+}
