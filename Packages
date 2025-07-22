@@ -1,0 +1,20 @@
+
+
+Package: com.zelvorn.keyrounded
+Name: keyrounded
+Version: 1.0
+Architecture: iphoneos-arm64
+Depends: mobilesubstrate (>= 0.9.5000), cy+cpu.arm64v8 | oldabi-xina | oldabi
+Filename: ./debs/com.zelvorn.keyrounded_1.0_iphoneos-arm64.deb
+Size: 3780
+MD5sum: 3c8966dcaaa22f42778691d2e28a86b5
+SHA1: f6981a4d80b4ca3a503bd2cc2e1fc72d1e5bb7f3
+SHA256: 5f46d9be8011156905846a9321db24b941528b8950f08087e6a2b625cd08a9e8
+Section: Tweaks
+Description: Modify the keyboard to have rounded corners, bold.
+Author: zelvorn
+Depiction: 
+SileoDepiction: https://zelv0rn.github.io/sileodepictions/keyrounded/keyrounded.json
+Installed-size: 4
+
+
